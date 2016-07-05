@@ -6,7 +6,10 @@
  Description : Setting/Clearing/Toggling/Checking a bit
  ==============================================================================
  */
-
+#include <iostream>
+#include <string>
+#include <cstdlib>
+#include <ctime>
 #include <bitset>
 int main()
 {
