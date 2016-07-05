@@ -11,6 +11,8 @@
 #include <cstdlib>
 #include <ctime>
 #include <bitset>
+using namespace std;
+
 int main()
 {
 	int a=2;
