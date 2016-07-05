@@ -2,7 +2,7 @@
  ==============================================================================
  Name        : no_of_ones.cpp
  Author      : Siddhata Patil
- Copyright   : Your copyright notice
+ Copyright   : Copyright (c) Siddhata Patil. All rights reserved.
  Description : Count number of ones in an int using cpp
  ==============================================================================
  */
