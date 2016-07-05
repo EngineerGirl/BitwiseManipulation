@@ -6,7 +6,10 @@
  Description : Count number of ones in an int using cpp
  ==============================================================================
  */
-
+#include <iostream>
+#include <string>
+#include <cstdlib>
+#include <ctime>
 #include <bitset>
 #include <math.h>
 int no_of_ones(int a)
