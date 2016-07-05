@@ -12,6 +12,8 @@
 #include <ctime>
 #include <bitset>
 #include <math.h>
+using namespace std;
+
 int no_of_ones(int a)
 {int res=0;
 double power;
