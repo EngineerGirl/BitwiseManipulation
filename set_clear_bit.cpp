@@ -15,19 +15,19 @@ int main()
 	cout<<x<<endl;	
 	a|=1<<5; // Setting
 	bitset<8>y(a);
-	cout<<y<<endl;
-	cout<<a<<endl;
+	cout<<"After setting bit no 5: "<<y<<endl;
+	cout<<"Decimal equivalent: "<<a<<endl;
 	a&=~(1<<5); // Clearing
 	bitset<8>w(a);
-	cout<<w<<endl;
-	cout<<a<<endl;
+	cout<<"After clearing bit no 5: "<<w<<endl;
+	cout<<"Decimal equivalent: "<<a<<endl;
 	a^=1<<5; //Toggling
-	cout<<a<<endl;
+	cout<<"After Toggling bit no 5: (Decimal equivalent) "<<a<<endl;
 	int bit;
 	bit=(a>>5)&1; //Checking the bit
-	cout<<bit<<endl;
+	cout<<"Checking the 5th bit (1 or 0): "<<bit<<endl;
 	a^=(-0^a)&(1<<5);
-	cout<<a<<endl;
+	cout<<"Decimal equivalent: "<<a<<endl;
 
 system("pause");
 return 0;
