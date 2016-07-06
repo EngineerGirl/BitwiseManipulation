@@ -2,7 +2,7 @@
  ==============================================================================
  Name        : no_of_ones.cpp
  Author      : Siddhata Patil
- Copyright   : Copyright (c) Siddhata Patil. All rights reserved.
+ Copyright   : Copyright ©  Siddhata Patil. Sourcecode rights reserved.
  Description : Setting/Clearing/Toggling/Checking a bit
  ==============================================================================
  */
