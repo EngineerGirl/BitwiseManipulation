@@ -7,9 +7,6 @@
  ==============================================================================
  */
 #include <iostream>
-#include <string>
-#include <cstdlib>
-#include <ctime>
 #include <bitset>
 #include <math.h>
 using namespace std;
@@ -40,6 +37,6 @@ int main()
 	result=no_of_ones(1022);
 	cout<<endl;
 	cout<<result<<endl;
-system("pause");
+
 return 0;
 }
