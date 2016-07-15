@@ -13,9 +13,8 @@ using namespace std;
 int main()
 {
 	int a = 3;
-	int b = 2;
 	int c = 7;
-	cout<< "I "<<(unsigned __int8)a  <<" you "<<(unsigned __int8)b<<endl;
+	cout<< "I "<<(unsigned __int8)a  <<" you \2"<<endl;
 	cout<<(unsigned __int8)c;
 	cout<<(unsigned __int8)c;
 	cout<<(unsigned __int8)c;
