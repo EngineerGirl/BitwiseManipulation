@@ -36,3 +36,37 @@ int main()
 	system ("pause");
 	return 0;
 }
+/*
+Printing out just the destination block as a separate function
+void print1(int* dest, int size)
+{
+	cout<<"Just the destination block"<<endl;
+	for(int i =0; i<size; i++)
+	{
+		cout<<*dest<<endl;
+		--dest;
+	}
+}
+
+void memcpy (int* src, int* dest, int size)
+{
+	for(int i=0;i<size;i++)
+	{
+	*dest = *src;
+	cout<<*dest<<endl;
+	src=src+1;
+	dest++;
+	}
+	print1(--dest, size);
+}
+
+int main()
+{
+	int A[3]={1,2,3};
+	int *dest = new int[5];
+	int *src = A;
+	memcpy (src, dest, 3);
+	system ("pause");
+	return 0;
+}
+*/
